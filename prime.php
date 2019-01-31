@@ -1,21 +1,20 @@
 <?php
 $primes = array();
 
-	function is_primre($number){
+	function is_prime($number){
 		$divider = 0;
-		$i=0;
-		do{
+		for($i=1;$i<=$number/2;$i++)
+		{
 			if($number % $i ==0 )
 			{
 				$divider++;
-				$i++;
 			}
-			else
+			if($divider>2)
 			{
-				$i++
+				return false;
 			}
-		}while($divider <3)
-			return false;
+		}
+		return true;
 	}
 	function update_primes_array(){
 		
