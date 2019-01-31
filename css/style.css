@@ -3,6 +3,8 @@ body{
 	height:100%;
 	margin:0;
 }
+
+/*Navbar */
 .navbar{
 	position:fixed;
 	top:0;
@@ -20,4 +22,14 @@ body{
 {
 	color:white;
 	font-size:20px;
+}
+/*navbar end*/
+@media screen and (max-width: 480px) {
+/*navbar*/
+#wellcome-title
+{
+	color:white;
+	font-size:18px;
+}
+/*navbar end*/
 }
