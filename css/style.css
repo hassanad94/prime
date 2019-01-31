@@ -6,20 +6,20 @@ body{
 
 /*Navbar */
 .navbar{
-	position:fixed;
-	top:0;
+	height:50px;
 	width:100%;
 	background-color:#222;
 	margin-bottom:5px;
+	padding-top:25px;
 }
 .wellcome-box
 {
-	padding-top:0px;
-	
+	height:100%;
 	text-align:center;
 }
 #wellcome-title
 {
+	margin:0;
 	color:white;
 	font-size:20px;
 }
