@@ -8,9 +8,12 @@
 </head>
 <body>
 <?php
+/*navbar*/
 include("navbar.php");
 ?>
-	
+<?php
+include("content.php");
+?>
 </div>
 </body>
 </html>
