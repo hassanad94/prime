@@ -24,6 +24,36 @@ body{
 	font-size:20px;
 }
 /*navbar end*/
+
+.content
+{
+	text-align:center;
+}
+.prime_input{
+	margin-bottom:15px;
+	border-radius: 10px;
+    height: 50px;
+}
+/*Numbers*/
+.num-table
+{
+	margin-bottom:15px;
+}
+
+.num-button{
+display:block;
+padding:8px 25px; 
+background-color:#333;
+color:white; 
+border-radius:4px; 
+cursor:pointer;
+}
+.num-button:hover{
+opacity:0.3 ;
+}
+
+
+/**/
 @media screen and (max-width: 480px) {
 /*navbar*/
 #wellcome-title
