@@ -20,7 +20,7 @@
 					</tr>
 				</table>
 			</div>
-			<span onclick="primeForm.submit()" id="submitButton" class="submit-button"> Nyomj Meg </span>
+			<span onclick="primeForm.submit()" onSubmit="" id="submitButton" class="submit-button"> Nyomj Meg </span>
 	</form>
 <!--Form scriptjei-->
 <script type="text/javascript" src="js/form-functions.js"></script>
