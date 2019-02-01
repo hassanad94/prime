@@ -1,5 +1,5 @@
 <div class="content">
-	<form method="GET" action="" name="primeForm" onSubmit="return validate(event)">
+	<form method="GET" action="" name="primeForm" >
 		<input id="primeInput" class="prime_input" type="number" placeholder=" Position of a Prime Number" name="prime_textbox" /></br>
 			<div class="num-table" >
 				<table  style="margin:auto;">
