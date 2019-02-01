@@ -1,7 +1,9 @@
 <?php
-$primes = array();
+class PrimeNumber
+{
+	public $prime=0;
 
-	function is_prime($number){
+	public function is_prime($number){
 		$divider = 0;
 		for($i=1;$i<=$number;$i++)
 		{
@@ -9,28 +11,36 @@ $primes = array();
 			{
 				$divider++;
 			}
-			if($divider>2 || $number/2 == $i)
+			if($divider>2)
 			{
 				return false;
 			}
 		}
 		return true;
 	}
-	function update_primes_array(){
-		$i=1;
-		$match=0;
-		$counter = 0;
-		do
-		{
-			$i++;
-			if(is_prime($i)== true)
-			{
-				$primes[] = $i;
-				$match++;
-			}
-			
-		}while($match != 1000);
-	}
-
 	
+	public function get_prime_number($number){
+		$i=1;
+		$counter = 0;
+		do{
+			$i++;
+			if($this->is_prime($i)== true)
+			{
+				$counter++;
+			}
+		}while($number != $counter);
+		return $i;
+	}
+	public function setPrime($number){
+		$return_num = $this-> get_prime_number($number);
+		$this->prime = $return_num;
+	}
+	public function getPrime()
+	{
+		return $this->prime;
+	}
+}
+
+
+
 ?>
