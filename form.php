@@ -1,6 +1,6 @@
 <div class="content">
 	<form method="GET" action="" name="primeForm" onSubmit="return validate(event)">
-		<input id="primeInput" class="prime_input" type="number" placeholder=" Hanyadik Primszám?" name="prime_textbox" /></br>
+		<input id="primeInput" class="prime_input" type="number" placeholder=" Position of a Prime Number" name="prime_textbox" /></br>
 			<div class="num-table" >
 				<table  style="margin:auto;">
 					<tr>
@@ -25,7 +25,7 @@
 					</tr>
 				</table>
 			</div>
-			<span onclick="primeForm.submit()"id="submitButton" class="submit-button"> Nyomj Meg </span>
+			<span onclick="primeForm.submit()"id="submitButton" class="submit-button"> CLICK ON ME!</span>
 	</form>
 <!--Form scriptjei-->
 <script type="text/javascript" src="js/form-functions.js"></script>
