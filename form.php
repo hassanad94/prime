@@ -1,6 +1,6 @@
 <div class="content">
-	<form method="GET" action="" name="primeForm">
-		<input id="primeInput" class="prime_input" type="text" placeholder=" Hanyadik Primszám?" name="prime_textbox" /></br>
+	<form method="GET" action="" name="primeForm" onSubmit="return validate(event)">
+		<input id="primeInput" class="prime_input" type="number" placeholder=" Hanyadik Primszám?" name="prime_textbox" /></br>
 			<div class="num-table" >
 				<table  style="margin:auto;">
 					<tr>
@@ -18,9 +18,14 @@
 						<td><span onclick="updateInput(8)" class="num-button"> 8 </span></td>
 						<td><span onclick="updateInput(9)" class="num-button"> 9 </span></td>
 					</tr>
+					<tr>
+						<td></td>
+						<td><span onclick="updateInput(0)" class="num-button"> 0 </span></td>
+						<td></td>
+					</tr>
 				</table>
 			</div>
-			<span onclick="primeForm.submit()" onSubmit="" id="submitButton" class="submit-button"> Nyomj Meg </span>
+			<span onclick="primeForm.submit()"id="submitButton" class="submit-button"> Nyomj Meg </span>
 	</form>
 <!--Form scriptjei-->
 <script type="text/javascript" src="js/form-functions.js"></script>
