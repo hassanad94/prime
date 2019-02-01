@@ -3,7 +3,6 @@ body{
 	height:100%;
 	margin:0;
 }
-
 /*Navbar */
 .navbar{
 	height:50px;
@@ -23,23 +22,24 @@ body{
 	color:white;
 	font-size:20px;
 }
-/*navbar end*/
-
+/*---------------------*/
+/*Form/ bevitel*/
 .content
 {
 	text-align:center;
 }
 .prime_input{
+	font-size: 15px;
 	margin-bottom:15px;
 	border-radius: 10px;
     height: 50px;
 }
+/*---------------------*/
 /*Numbers*/
 .num-table
 {
 	margin-bottom:15px;
 }
-
 .num-button{
 display:block;
 padding:8px 25px; 
@@ -51,9 +51,22 @@ cursor:pointer;
 .num-button:hover{
 opacity:0.3 ;
 }
-
-
-/**/
+/*---------------------*/
+/*Bevitel Gomb*/
+.submit-button{
+margin:auto;
+display:block;
+padding:8px 25px; 
+background-color:#333;
+color:white; 
+border-radius:4px; 
+cursor:pointer;
+max-width:150px;
+}
+.submit-button:hover{
+opacity:0.3 ;
+}
+/*---------------------*/
 @media screen and (max-width: 480px) {
 /*navbar*/
 #wellcome-title
